@@ -1,0 +1,86 @@
+/* .blue {
+   color: blue;
+}
+
+.text {
+   font-size: 50px;
+}
+
+
+.size {
+   font-size: 50px;
+}
+
+.color {
+   color: white;
+}
+
+.bcc {
+   background-color: green;
+}
+
+.un {
+   background-color: red;
+}
+
+.deux {
+   color: yellow
+}
+
+.trois {
+   font-size: 30px
+}
+
+.classeUne {
+   background-color: blue;
+}
+
+.classeDeux {
+   color: white
+}
+
+.classeTrois {
+   font-size: 25px
+}
+
+*/
+
+body {
+   padding: 30px 100px;
+}
+
+body > div:first-of-type {
+   background-color: blue;
+   height: 40px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+}
+
+body > div:nth-child(2) {
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 50px;
+}
+
+body > div:nth-child(2) > a {
+   width: 24%;
+   line-height: 1px;
+   text-decoration: none;
+   color: blue;
+   padding-left: 1%;
+}
+
+body > div:nth-child(2) > a:hover {
+   width: 24%;
+   line-height: 1px;
+   background-color: blue;
+   color: white;
+}
+
+body > div:nth-child(3) {
+   height: 400px;
+   background-color: grey;
+}
