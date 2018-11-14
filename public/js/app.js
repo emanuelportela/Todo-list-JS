@@ -139,3 +139,13 @@ function newBtn() {
 btn.addEventListener('click', newBtn)
 
 */
+
+import "./_exo1.js"
+import "./_exo2.js"
+import "./_exo3.js"
+import "./_exo4.js"
+import "./_exo5.js"
+import "./_exo6.js"
+
+
+

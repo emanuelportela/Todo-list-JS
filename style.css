@@ -1,50 +1,3 @@
-/* .blue {
-   color: blue;
-}
-
-.text {
-   font-size: 50px;
-}
-
-
-.size {
-   font-size: 50px;
-}
-
-.color {
-   color: white;
-}
-
-.bcc {
-   background-color: green;
-}
-
-.un {
-   background-color: red;
-}
-
-.deux {
-   color: yellow
-}
-
-.trois {
-   font-size: 30px
-}
-
-.classeUne {
-   background-color: blue;
-}
-
-.classeDeux {
-   color: white
-}
-
-.classeTrois {
-   font-size: 25px
-}
-
-*/
-
 body {
    padding: 30px 100px;
 }
@@ -80,7 +33,59 @@ body > div:nth-child(2) > a:hover {
    color: white;
 }
 
-body > div:nth-child(3) {
-   height: 400px;
+.div1 {
+   height: 350px;
    background-color: grey;
+   padding: 30px 50px;
+}
+
+.section2 {
+   display: none;
+}
+
+.div2 {
+   height: 90px;
+   background-color: rgb(196, 196, 196);
+   padding-left: 10vh;
+   padding-top: 60px;
+}
+
+.section3 {
+   display: none;
+}
+
+.div3 {
+   background-color: green;
+   height: 350px;
+   width: 100%;
+   color: white;
+}
+
+.section4 {
+   display: none;
+}
+
+.div4 {
+   background-color: yellow;
+   height: 100px;
+   width: 100%;
+   color: white;
+}
+
+.section5 {
+   display: none;
+}
+
+.div5 {
+   background-color: pink;
+   height: 500px;
+}
+
+.section6 {
+   display: none;
+}
+
+.div6 {
+   background-color: purple;
+   height: 200px;
 }
