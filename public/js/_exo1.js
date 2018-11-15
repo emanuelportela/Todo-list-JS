@@ -1,17 +1,14 @@
-/* var listexo = document.querySelector('.exercice2');
-var listexo2 = document.querySelector('.exercice3');
 
-var exo1Hidden = document.querySelector('.exercice1');
+// Changer le contenu du h2 par "le titre modifié"
 
-function refresh() {
-    event.preventDefault();
-    exo1Hidden.classList.add('hidden');
-    listexo.classList.remove('hidden');
-    listexo2.classList.remove('hidden');
-}
+var allP = document.querySelectorAll(".h2");
 
-let btn = document.querySelector('.exo2');
-let btn2 = document.querySelector('.exo3');
+allP[0].innerText = "Le titre modifié";
 
-btn.addEventListener('click', refresh);
-btn2.addEventListener('click', refresh); */
+// Changer la couleur du h2 (la couleur que vous voulez)
+
+allP[0].style.backgroundColor = "blue"
+
+// Ajouter une classe background bootstrap au h2
+
+allP[0].style.color = "white"
