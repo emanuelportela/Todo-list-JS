@@ -145,7 +145,5 @@ import "./_exo2.js"
 import "./_exo3.js"
 import "./_exo4.js"
 import "./_exo5.js"
-import "./_exo6.js"
-
-
-
+import "./_exo6.1.js"
+import "./_exo6.2.js"

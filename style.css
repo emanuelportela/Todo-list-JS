@@ -153,6 +153,211 @@ body > div:nth-child(2) > a:hover {
 }
 
 .div6 {
-   background-color: purple;
-   height: 200px;
+   background-color: rgb(196, 196, 196);
+   height: 600px;
+   padding: 30px 10vh;
+}
+
+.calculatrice-1 {
+   display: flex;
+}
+
+.plus {
+   padding: 0 10px;
+}
+
+.egal {
+   margin: 0 10px 0 7px;
+}
+
+.calculatrice-2 {
+   background-color: rgb(49, 49, 49);
+   width: 28%;
+   height: 50vh;
+   color: white;
+}
+
+.etage-1 {
+   height: 24%;
+   border-bottom: solid 1px rgb(85, 85, 85);
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 0 15px;
+}
+
+.etage-2 {
+   height: 19%;
+   border-bottom: solid 1px rgb(85, 85, 85);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.etage-3 {
+   height: 19%;
+   border-bottom: solid 1px rgb(85, 85, 85);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.etage-4 {
+   height: 19%;
+   border-bottom: solid 1px rgb(85, 85, 85);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.etage-5 {
+   height: 19%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.touche-1 {
+   width: 15%;
+   height: 70%;
+   background-color: rgb(211, 211, 211);
+   border-radius: 5px;
+   font-size: 100%;
+}
+
+.touche-2 {
+   width: 15%;
+   height: 70%;
+   background-color: rgb(211, 211, 211);
+   border-radius: 5px;
+   font-size: 100%;
+}
+
+.touche-3 {
+   width: 15%;
+   height: 70%;
+   background-color: rgb(211, 211, 211);
+   border-radius: 5px;
+   font-size: 100%;
+}
+
+.touche-plus {
+   width: 15%;
+   height: 70%;
+   background-color: blue;
+   border-radius: 5px;
+   font-size: 100%;
+   color: white;
+}
+
+.touche-4 {
+   width: 15%;
+   height: 70%;
+   background-color: rgb(211, 211, 211);
+   border-radius: 5px;
+   font-size: 100%;
+}
+
+.touche-5 {
+   width: 15%;
+   height: 70%;
+   background-color: rgb(211, 211, 211);
+   border-radius: 5px;
+   font-size: 100%;
+}
+
+.touche-6 {
+   width: 15%;
+   height: 70%;
+   background-color: rgb(211, 211, 211);
+   border-radius: 5px;
+   font-size: 100%;
+}
+
+.touche-moins {
+   width: 15%;
+   height: 70%;
+   background-color: blue;
+   border-radius: 5px;
+   font-size: 100%;
+   color: white;
+}
+
+.touche-7 {
+   width: 15%;
+   height: 70%;
+   background-color: rgb(211, 211, 211);
+   border-radius: 5px;
+   font-size: 100%;
+}
+
+.touche-8 {
+   width: 15%;
+   height: 70%;
+   background-color: rgb(211, 211, 211);
+   border-radius: 5px;
+   font-size: 100%;
+}
+
+.touche-9 {
+   width: 15%;
+   height: 70%;
+   background-color: rgb(211, 211, 211);
+   border-radius: 5px;
+   font-size: 100%;
+}
+
+.touche-fois {
+   width: 15%;
+   height: 70%;
+   background-color: blue;
+   border-radius: 5px;
+   font-size: 100%;
+   color: white;
+}
+
+.touche-C {
+   width: 15%;
+   height: 70%;
+   background-color: rgb(211, 211, 211);
+   border-radius: 5px;
+   font-size: 100%;
+   background-color: rgb(184, 47, 47);
+   color: white;
+}
+
+.touche-0 {
+   width: 15%;
+   height: 70%;
+   background-color: rgb(211, 211, 211);
+   border-radius: 5px;
+   font-size: 100%;
+}
+
+.touche-egal {
+   width: 15%;
+   height: 70%;
+   background-color: rgb(99, 219, 52);
+   border-radius: 5px;
+   font-size: 100%;
+   color: white;
+}
+
+.touche-diviser {
+   width: 15%;
+   height: 70%;
+   background-color: blue;
+   border-radius: 5px;
+   font-size: 100%;
+   color: white;
+}
+
+#calcul {
+   height: 4vh;
+   width: 80%;
+}
+
+.resultat {
+   width: 100%;
+   text-align: right;
 }
