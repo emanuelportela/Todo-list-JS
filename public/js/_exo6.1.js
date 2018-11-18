@@ -1,5 +1,7 @@
 var resultat = 0;
 
+document.querySelector('.egal').addEventListener('click', calcul);
+
 function calcul() {
    var x = document.getElementById('number1').value;
    var y = document.getElementById('number2').value;
@@ -9,5 +11,3 @@ function calcul() {
    document.getElementById('number1').value = '';
    document.getElementById('number2').value = '';
 }
-
-document.querySelector('.egal').addEventListener('click', calcul);

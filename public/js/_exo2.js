@@ -11,6 +11,7 @@ function refresh1() {
    document.querySelector('.section4').style.display="none";
    document.querySelector('.section5').style.display="none";
    document.querySelector('.section6').style.display="none";
+   document.querySelector('.section7').style.display="none";
 }
 
 // Clique - Exercice 3
@@ -26,6 +27,7 @@ function refresh2() {
    document.querySelector('.section4').style.display="none";
    document.querySelector('.section5').style.display="none";
    document.querySelector('.section6').style.display="none";
+   document.querySelector('.section7').style.display="none";
 }
 
 // Clique - Exercice 4
@@ -41,6 +43,7 @@ function refresh3() {
    document.querySelector('.section4').style.display="initial";
    document.querySelector('.section5').style.display="none";
    document.querySelector('.section6').style.display="none";
+   document.querySelector('.section7').style.display="none";
 }
 
 // Clique - Exercice 5
@@ -56,6 +59,7 @@ function refresh4() {
    document.querySelector('.section4').style.display="none";
    document.querySelector('.section5').style.display="initial";
    document.querySelector('.section6').style.display="none";
+   document.querySelector('.section7').style.display="none";
 }
 
 // Clique - Exercice 6
@@ -71,6 +75,24 @@ function refresh5() {
    document.querySelector('.section4').style.display="none";
    document.querySelector('.section5').style.display="none";
    document.querySelector('.section6').style.display="initial";
+   document.querySelector('.section7').style.display="none";
+}
+
+
+// Clique - Exercice 7
+
+var x = document.querySelectorAll('a');
+x[6].addEventListener('click', refresh6);
+
+function refresh6() {
+   event.preventDefault();
+   document.querySelector('.section1').style.display="none";
+   document.querySelector('.section2').style.display="none";
+   document.querySelector('.section3').style.display="none";
+   document.querySelector('.section4').style.display="none";
+   document.querySelector('.section5').style.display="none";
+   document.querySelector('.section6').style.display="none";
+   document.querySelector('.section7').style.display="initial";
 }
 
 

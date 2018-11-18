@@ -45,7 +45,7 @@ body > div:nth-child(2) > a:hover {
 
 .div2 {
    height: 90px;
-   background-color: rgb(196, 196, 196);
+   background-color: rgb(204, 149, 149);
    padding-left: 10vh;
    padding-top: 60px;
 }
@@ -360,4 +360,14 @@ body > div:nth-child(2) > a:hover {
 .resultat {
    width: 100%;
    text-align: right;
+}
+
+.section7 {
+   display: none;
+}
+
+.div7 {
+   background-color: rgb(196, 196, 196);
+   height: 500px;
+   padding: 30px 10vh;
 }
